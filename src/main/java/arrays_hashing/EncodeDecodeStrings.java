@@ -1,3 +1,8 @@
+package arrays_hashing;
+
+import java.util.List;
+import java.util.ArrayList;
+
 /**
  * LeetCode Problem: Encode and Decode Strings
  * Description: Design an algorithm to encode a list of strings to a single string and decode it back.

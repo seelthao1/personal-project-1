@@ -1,3 +1,4 @@
+package binary_search;
 /**
  * LeetCode Problem: Find Minimum in Rotated Sorted Array
  * Description: Find the minimum element in a rotated sorted array.
