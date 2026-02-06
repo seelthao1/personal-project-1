@@ -1,0 +1,19 @@
+# Maven build directory
+target/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Temporary files
+*.tmp

@@ -1,3 +1,5 @@
+package binary_search;
+
 /**
  * LeetCode Problem: Search in Rotated Sorted Array
  * Description: Given a rotated sorted array and a target value, return the index if the target is found. If not, return -1.

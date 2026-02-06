@@ -1,3 +1,4 @@
+package intervals;
 /**
  * LeetCode Problem: Merge Intervals
  * Description: Given an array of intervals, merge all overlapping intervals.

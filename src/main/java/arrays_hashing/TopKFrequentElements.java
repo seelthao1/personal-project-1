@@ -1,3 +1,5 @@
+package arrays_hashing;
+
 /**
  * LeetCode Problem: Top K Frequent Elements
  * Description: Given a non-empty array of integers, return the k most frequent elements.

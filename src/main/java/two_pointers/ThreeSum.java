@@ -1,3 +1,8 @@
+package two_pointers;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * LeetCode Problem: 3Sum
  * Description: Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j != k and nums[i] + nums[j] + nums[k] == 0.
