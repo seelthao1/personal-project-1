@@ -10,6 +10,12 @@ public class GroupAnagramsTest {
     public void testGroupAnagrams() {
         GroupAnagrams solution = new GroupAnagrams();
         // TODO: Add test cases
-        // Example: assertEquals(2, solution.groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"}).size());
+        assertTrue(solution.groupAnagrams(new String[]{}).isEmpty());
+        assertEquals(1,solution.groupAnagrams(new String[]{"hello"}).size());
+        assertEquals(3, solution.groupAnagrams(new String[]{"eat","tea","tan","ate","nat","bat"}).size());
+
+        List<List<String>> result2 = solution.groupAnagrams(new String[]{"abc", "bca", "cab", "aab"});
+        assertEquals(2, result2.size());
+        assertEquals(3,result2.get(0).size());
     }
 }
