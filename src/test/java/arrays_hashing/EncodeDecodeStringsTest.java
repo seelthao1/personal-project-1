@@ -13,6 +13,7 @@ public class EncodeDecodeStringsTest {
         List<String> input = Arrays.asList("leet", "code", "!@#");
         String encoded = solution.encode(input);
         List<String> decoded = solution.decode(encoded);
-        // Example: assertEquals(input, decoded);
+//        assertEquals(decoded, input);
+        assertEquals(input, decoded);
     }
 }
