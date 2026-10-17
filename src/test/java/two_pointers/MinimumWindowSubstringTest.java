@@ -2,7 +2,7 @@ package two_pointers;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MinimumWindowSubstringTest {
+public class  MinimumWindowSubstringTest {
     @Test
     public void testMinWindow() {
         MinimumWindowSubstring solution = new MinimumWindowSubstring();
